@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+}
+.app{
+    display: flex;
+}
+.app_body{
+    display: flex;
+}

@@ -1,0 +1,27 @@
+.navContents_Container > h3{
+    font-size: 15px;
+}
+.icons{
+    cursor: pointer;
+    height: 25px!important;
+    width: 25px;
+    object-fit: contain; 
+    /* maintains aspect ratio when screen is reducued */
+}
+.MuiSvgIcon-root{
+    font-size: 1.2rem!important;
+}
+.navContents_Container{
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(92, 92, 92);
+}
+.navContents_Container:hover{ 
+    color: black;
+}
+.Navcontent_avatar{
+    height: 30px!important;
+    width: 30px!important;
+}

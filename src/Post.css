@@ -1,0 +1,42 @@
+.posts_container{
+    border: 1px solid lightgray;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: gray;
+    padding: 5px 0px 0px 20px;
+}
+.post_header{
+    display: flex;
+}
+.post_header > p{
+    margin-top:20px;
+    margin-right: 20px;
+
+}
+.post_name{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.post_des{
+    font-size: 0.8rem;
+}
+.post_info{
+    margin-left: 15px;
+}
+.post_body{
+    color: black;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+}
+.post_body > p{
+    padding-left: 20px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+}
+.post_options{
+    display: flex;
+    justify-content: space-evenly;
+}

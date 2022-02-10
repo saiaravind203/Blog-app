@@ -1,0 +1,102 @@
+.sidebar{
+    position: fixed;
+    top:85px;
+    flex: 0.2;
+    height: fit-content;
+    text-align: center;
+    padding-left: 110px;
+    padding-top: 30px;
+    width: 250px;
+    
+}
+.sidbar_avatar{
+    margin-bottom: 12px;
+}
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(202, 199, 199);
+    background-color: white;
+    padding-bottom: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    border-bottom: none;
+    box-shadow: 4px 0px 5px #acabab36;
+
+}
+.sidebar_top > img{
+    height: 80px;
+    width: 100%;
+    margin-bottom: -20px;
+    object-fit: cover;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.sidebar_top > h3{
+    color: black;
+    font-size: 16px;
+}
+.sidebar_top > h4{
+    color: gray;
+    font-size: 12px;
+    padding: 2px 12px;
+}
+.sidebar_stats{
+    border: 1px solid rgb(202, 199, 199);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 4px 4px 5px #acabab36;
+}
+.sidbar_inner{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidbar_inner > p{
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+} 
+.sidebar_statsnumber{
+    font-weight: bold;
+    /* color: #0a66c2!important; */
+    color: rgb(0, 73, 156)!important;;
+}
+.sidebar_bottom{
+    background-color: #f5f5f5;
+    border: 1px solid rgb(202, 199, 199);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #acabab36;
+}
+.sidebar_recentItems {
+    font-size: 15px;
+    font-weight: 500;
+    color: #817a7a;
+    text-align: initial;
+    margin: 4px;
+    display: flex;
+}
+
+.sidebar_recentItems :hover{
+  color: #000000;
+  cursor: pointer;
+  
+}
+.sidebar_bottom > h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: initial;
+    
+}
+.sidebar_bottom > h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: #0080af;
+    cursor: pointer;
+    user-select: none;
+    
+}
