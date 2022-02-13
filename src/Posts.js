@@ -7,11 +7,12 @@ import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined'
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined'
 import './Post.css'
 
-function Posts({name,description,message}){
+
+function Posts({name,description,message,photUrl}){
     return(
         <div className='posts_container'>
          <div className='post_header'>
-             <Avatar className='sidebar_avatar'/>
+             <Avatar src={photUrl} className='sidebar_avatar'/>
              <div className='post_info'>
                  <p className='post_name'>{name}</p>
                  <p className='post_des'>{description} </p>
