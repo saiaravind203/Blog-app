@@ -1,7 +1,7 @@
 .feed_container{
-    flex: 0.6;
+    flex: 0.65;
     margin-top: 100px ;
-    margin-left: 500px ;
+    margin-left: 400px ;
 }
 .container{
     border: 1px solid lightgray;

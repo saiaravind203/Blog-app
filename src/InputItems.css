@@ -9,11 +9,13 @@
 }
 .inputItems > p{
     margin-left: 10px;
+    font-family: cursive;
 
 }
 .inputItems:hover{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: rgba(238, 238, 238, 0.555);
     border-radius: 10px;
     color: black;
+    box-shadow: 3px 3px 3px #cfcfcf9c;
 }
